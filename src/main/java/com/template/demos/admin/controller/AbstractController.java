@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 
 public abstract class AbstractController {
     protected Logger logger = LoggerFactory.getLogger(getClass());
-
+//    ss
     protected SysUserEntity getUser() {
         return ShiroUtils.getUserEntity();
     }
