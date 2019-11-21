@@ -1,0 +1,28 @@
+package com.template.demos.admin.dao;
+
+
+//import com.admin.paper_recycling.entity.SysOssEntity;
+//import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+//import com.baomidou.mybatisplus.core.metadata.IPage;
+
+
+import com.template.demos.admin.entity.SysOssEntity;
+
+/**
+ * 文件上传Dao
+ *
+ * @author lipengjun
+ * @email 939961241@qq.com
+ * @date 2017-03-25 12:13:26
+ */
+public interface SysOssDao extends BaseDao<SysOssEntity> {
+
+    /**
+     * 自定义分页查询
+     *
+     * @param page
+     * @param params
+     * @return
+     */
+//    List<SysOssEntity> selectSysOssPage(IPage page, Map<String, Object> params);
+}
